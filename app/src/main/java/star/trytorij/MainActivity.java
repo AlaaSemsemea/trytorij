@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements AHBottomNavigatio
         AHBottomNavigationItem dramaItem=new AHBottomNavigationItem("Train",R.drawable.ic_nearby);
         AHBottomNavigationItem docstem=new AHBottomNavigationItem("Account",R.drawable.ic_friends);
 
+
+
         //ADD THEM to bar
         bottomNavigation.addItem(crimeItem);
         bottomNavigation.addItem(dramaItem);
@@ -41,6 +43,8 @@ public class MainActivity extends AppCompatActivity implements AHBottomNavigatio
 
         //set properties
         bottomNavigation.setDefaultBackgroundColor(Color.parseColor("#FEFEFE"));
+        bottomNavigation.setInactiveColor(Color.parseColor("#770d00"));
+        bottomNavigation.setAccentColor(Color.parseColor("#ff5523"));
 
         //set current item
         bottomNavigation.setCurrentItem(0);
