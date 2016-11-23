@@ -17,13 +17,14 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="5dp"
     android:background="@color/colorPrimary"
-    android:text="Enter Our Website"/>
+    android:text="@string/enter"/>
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:textColor="#ff00ff"
         android:text="@string/large_text" />
 
 

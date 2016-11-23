@@ -6,6 +6,7 @@
     <string name="hello_blank_fragment2">Train</string>
     <string name="hello_blank_fragment3">Account</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string name="enter">Enter Our Website</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
