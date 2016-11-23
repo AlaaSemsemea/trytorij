@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 return rootView;
             }
             if (getArguments().getInt(ARG_SECTION_NUMBER)==2){
-                View rootView = inflater.inflate(R.layout.fragment_train, container, false);
+                View rootView = inflater.inflate(R.layout.activity_train, container, false);
                 return rootView;
             }
             else{
