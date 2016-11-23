@@ -2,9 +2,9 @@
     <string name="app_name">Try To Rij</string>
     <string name="action_settings">Settings</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Home</string>
-    <string name="hello_blank_fragment2">Train</string>
-    <string name="hello_blank_fragment3">Account</string>
+    <string name="home">Home</string>
+    <string name="train">Train</string>
+    <string name="account">Account</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="enter">Enter Our Website</string>
     <string name="large_text">
@@ -40,5 +40,5 @@
         "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
         "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
     </string>
-
+    
 </resources>
