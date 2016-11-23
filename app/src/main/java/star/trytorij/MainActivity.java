@@ -3,11 +3,10 @@ package star.trytorij;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.Window;
 
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
+
 import layout.Account;
 import layout.Home;
 import layout.Train;
@@ -24,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements AHBottomNavigatio
 
         bottomNavigation= (AHBottomNavigation) findViewById(R.id.myBottomNavigation_ID);
         bottomNavigation.setOnTabSelectedListener(this);
+        bottomNavigation.setBehaviorTranslationEnabled(true);
         this.createNavItems();
     }
 

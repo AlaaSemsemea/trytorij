@@ -40,5 +40,7 @@
         "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
         "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
     </string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_account_fragment">AccountFragment</string>
 
 </resources>
